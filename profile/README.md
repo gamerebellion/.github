@@ -62,20 +62,6 @@ Custom events via `GameRebellion.TrackEvent("event_name", jsonPayload)` for anyt
 
 ---
 
-## Architecture
-
-```mermaid
-flowchart LR
-    SDK["Your Game + SDK"] -->|"HTTPS batched"| API["SDK API"]
-    API --> Lake["Data Lake"]
-    Lake --> Dash["Dashboards"]
-    Lake --> Bench["Benchmarks · 400K+ games"]
-```
-
-Privacy-first. Consent gating on the client, IP anonymization on the server. Events are batched and cached offline.
-
----
-
 ## Integrations
 
 | Engine / Method | Status | Package |
