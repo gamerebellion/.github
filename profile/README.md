@@ -66,29 +66,13 @@ Custom events via `GameRebellion.TrackEvent("event_name", jsonPayload)` for anyt
 
 ```mermaid
 flowchart LR
-    subgraph sdk [Client SDK]
-        Consent["Consent Gate"] --> Validate["Validator"]
-        Validate --> Enrich["Enricher"]
-        Enrich --> Batch["Batcher + Cache"]
-    end
-
-    subgraph api [SDK API]
-        Auth["API Key Auth"] --> Geo["GeoIP + IP Anonymization"]
-        Geo --> Attr["Attribution Engine"]
-        Attr --> Store["Storage + Data Lake"]
-    end
-
-    subgraph platform [GameRebellion Platform]
-        Dash["Analytics Dashboards"]
-        Bench["Industry Benchmarks · 400K+ games"]
-    end
-
-    Batch -->|"HTTPS batched"| Auth
-    Store --> Dash
-    Store --> Bench
+    SDK["Your Game + SDK"] -->|"HTTPS batched"| API["SDK API"]
+    API --> Lake["Data Lake"]
+    Lake --> Dash["Dashboards"]
+    Lake --> Bench["Benchmarks · 400K+ games"]
 ```
 
-Privacy-first by design. Consent gating on the client, IP anonymization on the server. Events are batched and cached offline — nothing is lost if the player drops connection.
+Privacy-first. Consent gating on the client, IP anonymization on the server. Events are batched and cached offline.
 
 ---
 
