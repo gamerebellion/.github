@@ -1,10 +1,10 @@
 # GameRebellion
 
 <p>
-  <a href="https://docs.gamerebellion.com"><img src="https://img.shields.io/badge/Docs-docs.gamerebellion.com-FF66E4?style=flat-square&logo=readthedocs&logoColor=white" alt="Docs"></a>
-  <a href="https://github.com/gamerebellion/gamerebellion-unity-sdk"><img src="https://img.shields.io/badge/Unity-2020.3%2B-FF66E4?style=flat-square&logo=unity&logoColor=white" alt="Unity"></a>
-  <a href="#integrations"><img src="https://img.shields.io/badge/iOS%20%7C%20Android%20%7C%20Desktop%20%7C%20WebGL-FF66E4?style=flat-square" alt="Platforms"></a>
-  <a href="https://docs.gamerebellion.com/sdk/sdk-integrations/server-to-server"><img src="https://img.shields.io/badge/Server--to--Server-REST%20API-FF66E4?style=flat-square" alt="S2S API"></a>
+  <a href="https://docs.gamerebellion.com"><img src="https://img.shields.io/badge/Docs-docs.gamerebellion.com-df07b9?style=flat-square&logo=readthedocs&logoColor=white" alt="Docs"></a>
+  <a href="https://github.com/gamerebellion/gamerebellion-unity-sdk"><img src="https://img.shields.io/badge/Unity-2020.3%2B-df07b9?style=flat-square&logo=unity&logoColor=white" alt="Unity"></a>
+  <a href="#integrations"><img src="https://img.shields.io/badge/iOS%20%7C%20Android%20%7C%20Desktop%20%7C%20WebGL-df07b9?style=flat-square" alt="Platforms"></a>
+  <a href="https://docs.gamerebellion.com/sdk/sdk-integrations/server-to-server"><img src="https://img.shields.io/badge/Server--to--Server-REST%20API-df07b9?style=flat-square" alt="S2S API"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-22c55e?style=flat-square" alt="License"></a>
 </p>
 
