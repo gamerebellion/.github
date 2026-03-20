@@ -1,7 +1,7 @@
 # GameRebellion
 
 <p>
-  <a href="https://docs.gamerebellion.com">Documentation</a> · <a href="https://github.com/gamerebellion/gamerebellion-unity-sdk">Unity SDK</a> · <a href="https://docs.gamerebellion.com/sdk/sdk-integrations/server-to-server">S2S API</a> · <a href="LICENSE">MIT License</a>
+  <a href="https://docs.gamerebellion.com">Documentation</a> · <a href="https://github.com/gamerebellion/gamerebellion-unity-sdk">Unity SDK</a> · <a href="https://docs.gamerebellion.com/sdk/sdk-integrations/server-to-server">S2S API</a>
 </p>
 
 Game analytics SDK that tracks in-game events and contextualizes your data against **400,000+ titles** across the gaming industry — progression benchmarks, monetization baselines, genre comparisons, real-time dashboards.
