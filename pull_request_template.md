@@ -11,7 +11,7 @@ External contributors: leave this empty, a maintainer will pick it.
 
 - [ ] **Ship**: I merge once CI is green, no review.
 - [ ] **Show**: I merge once CI is green and post the link; review afterwards.
-- [ ] **Ask**: I wait for an approval from @…
+- [ ] **Ask**: I wait for an approval from the reviewer requested on this pull request.
 
 ## Risk
 
