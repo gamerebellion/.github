@@ -1,45 +1,25 @@
 # Contributing to GameRebellion
 
-Thank you for your interest in contributing. These guidelines apply to all public repositories under the [GameRebellion](https://github.com/gamerebellion) organization.
+These guidelines apply to every repository in the [GameRebellion](https://github.com/gamerebellion) organization that does not have its own contributing guide. A repository's own `CONTRIBUTING.md` wins.
 
-## Reporting Bugs
+## Bugs and feature requests
 
-Open a [GitHub Issue](https://github.com/gamerebellion/gamerebellion-unity-sdk/issues) on the relevant repository. Include:
+Open an issue with the repository's issue form. A blank issue is not available. Say what you expected, what happened, and the version you are running.
 
-- SDK version and engine version (e.g. Unity 2022.3, `com.gamerebellion.sdk` v0.1.0)
-- Target platform (iOS, Android, Editor)
-- Steps to reproduce
-- Expected vs. actual behavior
-- Relevant logs (enable `GRLogDrainer` for SDK-level logs)
+People at GameRebellion track internal work in [Jira](https://gameaddik.atlassian.net). A GitHub issue is for a public report.
 
-## Submitting Changes
+## Changes
 
-1. **Fork** the repository
-2. **Branch** from `main` using a descriptive name:
-   - `feat/add-webgl-support`
-   - `fix/session-stop-not-firing`
-   - `docs/update-integration-guide`
-3. **Make your changes** — match the existing code style and patterns
-4. **Test** your changes on at least one target platform
-5. **Commit** with a clear message following [Conventional Commits](https://www.conventionalcommits.org/):
-   ```
-   feat(unity): add WebGL transport adapter
-   fix(batcher): flush events on application pause
-   docs: update Quick Start for UPM installation
-   ```
-6. **Open a Pull Request** against `main` with a description of what changed and why
+1. Fork the repository, or create a branch in it when you have write access.
+2. Branch from that repository's default branch. The name starts with `feat/`, `fix/`, `docs/`, `chore/`, `ci/`, or `refactor/`.
+3. Match the style already in the repository.
+4. Commit with [Conventional Commits](https://www.conventionalcommits.org/).
+5. Open a pull request against the default branch. Use the [pull request template](https://github.com/gamerebellion/.github/blob/main/pull_request_template.md).
 
-## Code Style
+## Security
 
-- Match existing patterns in the repository
-- C# (Unity SDK): follow Microsoft C# conventions, use `#region` sparingly
-- Python (backend): PEP 8, type hints required
-- TypeScript (web): strict mode, no `any` types
+Report a vulnerability through [SECURITY.md](SECURITY.md). Do not open a public issue for it.
 
-## Architecture Context
+## Help
 
-For a high-level understanding of how the SDK, API, and platform fit together, see the architecture diagram in the [organization README](https://github.com/gamerebellion) or the full documentation at [docs.gamerebellion.com](https://docs.gamerebellion.com).
-
-## License
-
-By contributing, you agree that your contributions will be licensed under the [MIT License](LICENSE).
+See [SUPPORT.md](SUPPORT.md).
