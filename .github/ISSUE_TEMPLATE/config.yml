@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Jira
+    url: https://gameaddik.atlassian.net
+    about: People at GameRebellion track internal work in Jira. Use a GitHub issue for a public bug or feature request.
+  - name: Documentation
+    url: https://docs.gamerebellion.com
+    about: Read the product and SDK documentation before opening an issue.
